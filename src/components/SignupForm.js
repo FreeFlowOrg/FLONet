@@ -6,35 +6,35 @@ class SignupForm extends Component {
     return (
       <div className="signup-form">
         <form>
-          <div className="form-group">
+          <div className="form-group inp-group">
             <table className="inner-table">
               <tr>
                 <td><h2 className="lbl">F</h2></td>
-                <td><input type="text" className="form-control" placeholder="First Name" /></td>
+                <td><input type="text" className="form-control inp" placeholder="First Name" /></td>
               </tr>
             </table>
           </div>
-          <div className="form-group">
+          <div className="form-group inp-group">
             <table className="inner-table">
               <tr>
                 <td><h2 className="lbl">L</h2></td>
-                <td><input type="text" className="form-control" placeholder="Last Name" /></td>
+                <td><input type="text" className="form-control inp" placeholder="Last Name" /></td>
               </tr>
             </table>
           </div>
-          <div className="form-group">
+          <div className="form-group inp-group">
             <table className="inner-table">
               <tr>
                 <td><h2 className="lbl">E</h2></td>
-                <td><input type="email" className="form-control" placeholder="Email" /></td>
+                <td><input type="email" className="form-control inp" placeholder="Email" /></td>
               </tr>
             </table>
           </div>
-          <div className="form-group">
+          <div className="form-group inp-group">
             <table className="inner-table">
               <tr>
                 <td><h2 className="lbl">P</h2></td>
-                <td><input type="password" className="form-control" placeholder="Password" /></td>
+                <td><input type="password" className="form-control inp" placeholder="Password" /></td>
               </tr>
             </table>
           </div>

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-class AuthNavbar extends Component {
+class MainNavbar extends Component {
   render() {
     return (
-      <nav className="navbar">
+      <nav className="navbar main-nav">
         <div className="container-fluid">
           <div className="navbar-header">
             <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -13,12 +13,16 @@ class AuthNavbar extends Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#">FloNET</a>
+            <a className="navbar-brand main" href="#">FloNET</a>
           </div>
-
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form className="navbar-left">
+              <div className="form-group main-group">
+                <input type="text" className="form-control top-search" placeholder="Search" />
+              </div>
+            </form>
             <ul className="nav navbar-nav navbar-right">
-              <li><a href="#" className="meet">Meet Us</a></li>
+              <li><a href="#" className="meet main1"></a></li>
             </ul>
           </div>
         </div>
@@ -27,4 +31,4 @@ class AuthNavbar extends Component {
   }
 }
 
-export default AuthNavbar;
+export default MainNavbar;

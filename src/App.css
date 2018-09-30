@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
 .full-screen {
   height: 805px;
 }
@@ -14,6 +19,7 @@
 
 nav {
   background-color: transparent;
+  border-radius: 0;
 }
 
 .navbar {
@@ -36,6 +42,18 @@ nav {
   margin-right: 1.5em;
   font-weight: 100;
 }
+
+.main {
+  color: #ff5e62;
+  margin-top: -0.5em;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 
 .welcome {
   font-size: 96px;
@@ -66,20 +84,44 @@ nav {
   z-index: 100;
 }
 
-.form-group {
+.main-nav {
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+  z-index: 100;
+}
+
+.inp-group {
   width: 82%;
   margin: auto;
   margin-top: 3em;
   border:  0;
 }
 
-.form-control {
+.main-group {
+  width: 700px;
+  margin-left: 13%;
+  margin-top: 1%;
+}
+
+.inp {
   border: 0;
+  outline: none;
   border-bottom: 1px solid #888888;
   height: 49px;
   border-radius: 0;
   font-size: 13px;
   padding-top: 24px;
+}
+
+.top-search {
+  border: 0px solid;
+  background-color: rgb(220, 220, 220, 0.4);
+  outline: none;
+  height: 49px;
+  border-radius: 10;
+  font-size: 15px;
+  width: 100%;
+  color: black;
+  margin-top: 1.85em;
 }
 
 .login-btn {
@@ -119,6 +161,16 @@ nav {
   text-decoration: none;
   color: #ff5e62;
 }
+/*
+.dash-backg {
+  background-color: rgb(220, 220, 220, 0.3);
+  z-index: -1;
+  height: 1000px;
+} */
+
+.dash {
+  height: auto;
+}
 
 .tail {
   position: absolute;
@@ -127,4 +179,133 @@ nav {
   width: 380px;
   margin: 0 auto;
   margin-left: 1.5em;
+}
+
+.story {
+  width: 100%;
+  height: 500px;
+  text-align: left;
+}
+
+.each-story {
+  width: 100%;
+  height: 390px;
+  background-color: white;
+  margin-top: 1em;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.main-title {
+  font-size: 20px;
+}
+
+.img-scaf {
+  width: 80px;
+  height: 80px;
+  padding: 1em;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.name {
+    margin-top: 1.2em;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.fname {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.desg {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.post {
+  padding: 1.5em;
+}
+
+.post-title {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.post-data {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.rating {
+  list-style: none;
+  text-align: center;
+}
+
+.each-rate {
+  margin-top: 1em;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.round {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #ff5e62;
+  color: white;
+}
+
+.empty {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ff5e62;
+  color: white;
+}
+
+.each-following {
+  width: 97%;
+  text-align: left;
+  background-color: white;
+  height: 500px;
+  margin-left: 1em;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.whole {
+  padding: 0.7em;
+}
+
+.trending {
+  margin-top: 3em;
+}
+
+.features {
+  width: 97%;
+  background-color: white;
+  height: 500px;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.each-feature {
+  width: 95%;
+  padding: 1em;
+}
+
+.next-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.next-author {
+  font-size: 14px;
+  font-weight: 100;
 }
