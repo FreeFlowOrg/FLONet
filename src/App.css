@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+}
+
+.full-screen {
+  height: 805px;
+}
+
+#login-screen, #signup-screen {
+  background-image: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+nav {
+  background-color: transparent;
+}
+
+.navbar {
+  border: 0;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 32px;
+  margin: 0.5em;
+  padding: 1.8em;
+  font-weight: 100;
+}
+
+.meet {
+  color: white;
+  font-size: 32px;
+  margin-top: 1.7em;
+  margin-right: 1.5em;
+  font-weight: 100;
+}
+
+.welcome {
+  font-size: 96px;
+  font-weight: 100;
+  color: white;
+  margin-top: 0.65em;
+  margin-left: 1em;
+  letter-spacing: 0.5px;
+}
+
+.login-form {
+  background-color: white;
+  width: 60%;
+  padding-top: 0.5em;
+  height: 350px;
+  margin-left: 15%;
+  margin-top: 11%;
+  z-index: 100;
+}
+
+.form-group {
+  width: 82%;
+  margin: auto;
+  margin-top: 3em;
+  border:  0;
+}
+
+.form-control {
+  border: 0;
+  border-bottom: 1px solid #888888;
+  height: 49px;
+  border-radius: 0;
+  font-size: 13px;
+  padding-top: 24px;
+}
+
+.login-btn {
+  margin-top: 3em;
+  border: 0;
+  border-radius: 0;
+  width: 78%;
+  height: 45px;
+  color: white;
+  background-image: linear-gradient(to right, #ff9966, #ff5e62);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.inner-table {
+  width: 100%;
+  height: 40px;
+}
+
+.lbl {
+  color: #ff5e62;
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 4px;
+  margin-bottom: 0.1em;
+  border-bottom: 1px solid #888;
+}
+
+.no-acc {
+  margin: auto;
+  font-weight: 100;
+  margin-top: 1em;
+}
+
+.signup-link {
+  font-weight: 500;
+  text-decoration: none;
+  color: #ff5e62;
+}
+
+.tail {
+  position: absolute;
+  background-color: rgb(255, 255, 255, 0.4);
+  height: 54px;
+  width: 380px;
+  margin: 0 auto;
+  margin-left: 1.5em;
+}
