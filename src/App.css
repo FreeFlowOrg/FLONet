@@ -56,6 +56,16 @@ nav {
   z-index: 100;
 }
 
+.signup-form {
+  background-color: white;
+  width: 60%;
+  padding-top: 0.5em;
+  height: 550px;
+  margin-left: 15%;
+  margin-top: 4%;
+  z-index: 100;
+}
+
 .form-group {
   width: 82%;
   margin: auto;

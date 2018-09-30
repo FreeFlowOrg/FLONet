@@ -23,7 +23,7 @@ class LoginForm extends Component {
             </table>
           </div>
           <button type="submit" className="btn btn-default login-btn">Login</button>
-          <p className="no-acc">Dont have an account? <a href="/singup" className="signup-link">SIGNUP</a></p>
+          <p className="no-acc">Dont have an account? <a href="/signup" className="signup-link">SIGNUP</a></p>
         </form>
         <div className="tail"></div>
       </div>
